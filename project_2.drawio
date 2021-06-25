@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T10:10:23.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="cY-U6w3JbYf0iByhft3m" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-25T10:13:10.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="WY2xgYV5vBurExqs7blF" version="14.8.1" type="github">
   <diagram id="z8RYeGYIjc0KMRlBRthc" name="Page-1">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,11 +33,23 @@
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-14" target="ofNI_tSjx9QzNaKV6KWY-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ofNI_tSjx9QzNaKV6KWY-14" value="ok?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-14" value="is user input &lt;br&gt;ok?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="330" y="410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-19" target="ofNI_tSjx9QzNaKV6KWY-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-19" value="check usb connection for automatic digital io" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="1">
           <mxGeometry x="325" y="559.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-21" target="ofNI_tSjx9QzNaKV6KWY-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-21" value="pop up warning to verified digital io auto or manual" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="325" y="670" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-23" value="test step selection&lt;br&gt;all or some" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="325" y="790" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
