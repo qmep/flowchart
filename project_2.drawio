@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T10:13:10.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="WY2xgYV5vBurExqs7blF" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-25T10:16:42.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Du2U1AaPkFTWr-c_vO_X" version="14.8.1" type="github">
   <diagram id="z8RYeGYIjc0KMRlBRthc" name="Page-1">
-    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,25 +8,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-1" value="start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="350" y="80" width="60" height="60" as="geometry" />
+          <mxGeometry x="135" y="80" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-13" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-2" target="ofNI_tSjx9QzNaKV6KWY-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-2" value="load all required data with function" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="330" y="190" width="100" height="60" as="geometry" />
+          <mxGeometry x="115" y="190" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-15" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-10" target="ofNI_tSjx9QzNaKV6KWY-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-10" value="get user inputs" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="330" y="310" width="100" height="50" as="geometry" />
+          <mxGeometry x="115" y="310" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-17" value="not ok" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-14" target="ofNI_tSjx9QzNaKV6KWY-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="460" />
-              <mxPoint x="530" y="335" />
+              <mxPoint x="315" y="460" />
+              <mxPoint x="315" y="335" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -34,22 +34,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-14" value="is user input &lt;br&gt;ok?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="330" y="410" width="100" height="100" as="geometry" />
+          <mxGeometry x="115" y="410" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-19" target="ofNI_tSjx9QzNaKV6KWY-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-19" value="check usb connection for automatic digital io" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="325" y="559.5" width="110" height="50" as="geometry" />
+          <mxGeometry x="110" y="559.5" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-21" target="ofNI_tSjx9QzNaKV6KWY-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ofNI_tSjx9QzNaKV6KWY-21" value="pop up warning to verified digital io auto or manual" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="325" y="670" width="110" height="50" as="geometry" />
+          <mxGeometry x="110" y="670" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ofNI_tSjx9QzNaKV6KWY-23" value="test step selection&lt;br&gt;all or some" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="325" y="790" width="110" height="50" as="geometry" />
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-23" target="ofNI_tSjx9QzNaKV6KWY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-23" value="test step selection&lt;br&gt;for all or some" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="780" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofNI_tSjx9QzNaKV6KWY-28" target="ofNI_tSjx9QzNaKV6KWY-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-28" value="all test measurement applied?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="115" y="880" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ofNI_tSjx9QzNaKV6KWY-30" value="start test step-x&lt;br&gt;for measurement" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="285" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
