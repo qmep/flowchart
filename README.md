@@ -1,2 +1,2 @@
-# flowchart
-flowchart for different projects
+# Flowchart
+Flowchart for different projects
